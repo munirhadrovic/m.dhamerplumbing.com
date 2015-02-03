@@ -1,3 +1,70 @@
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+a:active, a:hover, a:focus {
+    outline: 0;
+}
+
+object, embed {
+    outline: 0;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
 /*.buttons-semir{
 	text-align: center;
 }
@@ -27,6 +94,12 @@ margin: 0 12%;
 }
 #menu {
   display:none;
+}
+#menu2 {
+    display:none;
+}
+#menu3 {
+    display:none;
 }
 #menu-contact {
   display:none;
@@ -228,4 +301,27 @@ input#contact-submit-dugme {
 
 #slider3-pager a {
   padding: 0;
+}
+
+.products-headline{
+    font-weight: bold;
+    padding: 10px;
+}
+
+#lijeva{
+    width:100%;
+}
+
+.left-list{
+    list-style-type: none;
+    float: left;
+    width:40%;
+    padding-left: 10px;
+
+}
+
+.right-list{
+    list-style-type: none;
+    width:50%;
+    float: right;
 }
