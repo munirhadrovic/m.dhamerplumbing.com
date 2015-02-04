@@ -39,6 +39,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.italic{
+    font-style: italic;
+}
+.italic-pumps{
+    font-style: italic;
+}
 
 
 .cf:before,
@@ -101,6 +107,24 @@ margin: 0 12%;
 #menu3 {
     display:none;
 }
+#menu4 {
+    display:none;
+}
+#menu5 {
+     display:none;
+ }
+#menu6 {
+    display:none;
+}
+#menu7 {
+    display:none;
+}
+#menu8 {
+    display:none;
+}
+#menu9 {
+    display:none;
+}
 #menu-contact {
   display:none;
 }
@@ -114,6 +138,7 @@ margin: 0 12%;
 .ui-grid-a div{
 	padding: 0px 3%;
 }
+
 .ui-grid-solo div{
 	padding: 0px 3%;		
 }
@@ -307,21 +332,138 @@ input#contact-submit-dugme {
     font-weight: bold;
     padding: 10px;
 }
+.products-headline-pumps{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 23px;
+}
+.contact-us-bold-padding{
+    font-weight: bold;
+    padding: 5px 0;
 
+}
+.p-padding{
+    padding-bottom: 5px;
+}
+
+.contacts-pump{
+    font-weight: bold;
+    padding: 10px;
+}
+.contacts-pump1{
+    font-weight: bold;
+    padding: 10px;
+    font-family: Verdana;
+    font-size: 23px;
+}
+.contact-us-bold{
+    font-weight: bold;
+}
+.contact-us-bold-padding{
+    font-weight: bold;
+
+}
 #lijeva{
     width:100%;
 }
+.naperville-p{
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.naperville-pumps{
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
 
+}
+.jim-dhamer-p-bold{
+    font-weight: bold;
+}
+.jim-dhamer-p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.jim-dhamer-h1{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 23px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.jim-dhamer-h2{
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.Downers-Grove-bold{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.Downers-Grove-bold-h1{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#section1{
+    padding-left: 10px;
+ }
+#section2{
+    padding-left: 10px;
+}
+#section3{
+    padding-left: 10px;
+}
+
+#section4{
+    padding-left: 10px;
+}
+#section5{
+    padding-left: 10px;
+}
+#section6{
+    padding-left: 10px;
+}
+.section6{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#section7{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.wheaton-h1{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.wheat-p{
+    padding-bottom: 5px;
+}
 .left-list{
     list-style-type: none;
     float: left;
     width:40%;
     padding-left: 10px;
-
+    font-size: 0.8em;
 }
-
+.list1{
+    list-style-type: circle;
+    padding-left: 20px;
+}
 .right-list{
     list-style-type: none;
-    width:50%;
+    width:40%;
     float: right;
+    font-size: 0.8em;
 }
